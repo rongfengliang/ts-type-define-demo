@@ -48,4 +48,6 @@ var Platform = /** @class */ (function (_super) {
     return Platform;
 }(App));
 exports.Platform = Platform;
+App.appversion = "v1.0";
+Platform.appversion = "v1.0";
 exports.default = App;

@@ -5,5 +5,6 @@ var app = new app_1.App();
 var platform = new app_1.Platform();
 app.init();
 platform.init();
+console.log("app version inf0:" + app_1.App.appversion + "\r\npaltform  version info " + app_1.Platform.appversion);
 var token = app.login("dalong", "dddd");
 console.log(token);

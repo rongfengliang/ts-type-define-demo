@@ -14,6 +14,7 @@ declare class App {
      * @param password app passwords 
      */
     login(name:string, password:string):string;
+    static appversion:string;
 }
 
 /**
@@ -25,8 +26,8 @@ declare class Platform extends App{
     * platform init 
     */
    init():void
+   static  platformversion:string;
 }
-
 export default App;
 export {
     App,

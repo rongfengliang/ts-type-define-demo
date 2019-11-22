@@ -26,8 +26,11 @@ class Platform extends App {
     console.log("Platform is init.....")
   }
 }
-export default App
 
+App.appversion = "v1.0"
+Platform.appversion = "v1.0"
+
+export default App;
 export {
   App,
   Platform
